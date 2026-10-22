@@ -20,7 +20,7 @@ struct AsyncJobManager;
 struct ServerModels;
 
 struct SDSvrParams {
-    std::string listen_ip = "127.0.0.1";
+    std::string listen_ip = "0.0.0.0";
     int listen_port       = 1234;
     std::string serve_html_path;
     std::vector<std::string> model_dirs;

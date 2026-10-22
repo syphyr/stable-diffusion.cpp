@@ -267,7 +267,7 @@ equivalent to `--log-level verbose`. If repeated, the last logging option wins.
 
 After the server starts successfully:
 
-* the web UI is available at `http://127.0.0.1:1234/`
+* the web UI is available at `http://0.0.0.0:1234/`
 * the native async API is available under `/sdcpp/v1/...`
 * the compatibility APIs are available under `/v1/...` and `/sdapi/v1/...`
 
