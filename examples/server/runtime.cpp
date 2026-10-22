@@ -346,7 +346,7 @@ ArgOptions SDSvrParams::get_options() {
     ArgOptions options;
 
     options.string_options = {
-        {"-l", "--listen-ip", "server listen ip (default: 127.0.0.1)", 0, &listen_ip},
+        {"-l", "--listen-ip", "server listen ip (default: 0.0.0.0)", 0, &listen_ip},
         {"", "--serve-html-path", "path to HTML file to serve at root (optional)", 0, &serve_html_path},
     };
 
