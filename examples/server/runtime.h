@@ -20,7 +20,7 @@ struct AsyncJobManager;
 struct ServerModels;
 
 struct SDSvrParams {
-    std::string listen_ip     = "127.0.0.1";
+    std::string listen_ip     = "0.0.0.0";
     int listen_port           = 1234;
     int max_pending_jobs      = 64;
     int completed_ttl_seconds = 600;
